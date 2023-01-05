@@ -34,7 +34,7 @@ const style = new Style({
   image: image,
 });
 
-let queryURL = "http://environment.data.gov.uk/flood-monitoring/id/floods?min-severity=3";
+let queryURL = "https://environment.data.gov.uk/flood-monitoring/id/floods?min-severity=3";
 let geometries = [];
 
 // Get lat/lon based on city name
